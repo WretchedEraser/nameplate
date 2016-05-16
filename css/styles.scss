@@ -1,0 +1,26 @@
+
+@import 'semantic';
+
+/* My Styles */
+
+.ui.segment:first-child{
+  margin-top: 3em;
+}
+body{
+  background: #000;
+}
+.cont{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+i.icon, i.icons{
+  color: #000;
+  display: inline-flex;
+  padding-top: .35em;
+  font-size: 2em;
+  justify-content: space-around;;
+}
+i.icon:parent, i.icons:parent{
+display: flex;
+}
